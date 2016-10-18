@@ -1,0 +1,179 @@
+<view class="index">
+    <view class="head">
+        <view class="title">小程序组件</view>
+        <view class="desc">这是展示小程序组件的的DEMO</view>
+    </view>
+
+    <view class="body">
+        <view class="widgets">
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" id="view">
+                    <text class="widgets__info-name">视图容器</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{viewShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">view</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">scroll-view</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                        <text class="widget__name">swiper</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="content" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}">
+                    <text class="widgets__info-name">基础内容</text>
+                    <image class="widgets__info-img" src="resources/kind/content.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{contentShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/text/text" class="widget">
+                        <text class="widget__name">text</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/icon/icon" class="widget">
+                        <text class="widget__name">icon</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/mask/mask" class="widget">
+                        <text class="widget__name">mask</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/toast/toast" class="widget">
+                        <text class="widget__name">toast</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/progress/progress" class="widget">
+                        <text class="widget__name">progress</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="form" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}">
+                    <text class="widgets__info-name">表单组件</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{formShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">button</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">checkbox</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                        <text class="widget__name">form</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">input</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                        <text class="widget__name">label</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">label</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">picker</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                        <text class="widget__name">radio</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">slider</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                        <text class="widget__name">switch</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="interact" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
+                    <text class="widgets__info-name">交换组件</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{interactShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">action-sheet</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">modal</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="nav" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
+                    <text class="widgets__info-name">导航</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{navShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">navigator</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="media" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
+                    <text class="widgets__info-name">媒体</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{mediaShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">image</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/view/view" class="widget">
+                        <text class="widget__name">audio</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                        <text class="widget__name">video</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

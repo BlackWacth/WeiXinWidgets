@@ -1,0 +1,76 @@
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 16px;
+}
+.head{
+    padding: 40px;
+}
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden; /**内容溢出元素框时的事情：内容被修剪，其余内容不显示*/
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    margin-top: 5px;
+    color: #888888;
+    font-size: 14px;
+}
+.widgets__item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.widgets__info{
+    display: flex; /**属性规定元素应该生成的框的类型: 伸缩容器*/
+    padding: 20px;
+    align-items: center; /**垂直居中 */
+    flex-direction: row; /**从左到右排， 并且子元素的宽度会自动伸缩铺满整个容器的宽度 */
+}
+.widgets__info_show{
+    opacity: 0.4; /**设置元素的不透明级别*/
+}
+.widgets__info-name{
+    flex: 1; /**flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。 */
+}
+.widgets__info-img{
+    width: 30px;
+    height: 30px;
+}
+.widgets__list {
+    display: none; /**此元素不会被显示。 */
+}
+.widgets__list_show{
+    display: block; /**此元素将显示为块级元素，此元素前后会带有换行符。 */
+}
+.widget{
+    position: relative; /**规定元素的定位类型 : 相对定位  */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.widget__arrow{
+    position: absolute; /**绝对定位 */
+    top: 14px;
+    right: 22px;
+    width: 8px;
+    height: 16px;
+}
+.widget__line{
+    content: "";
+    position: absolute;
+    left: 20px; /**左边距 */
+    right: 20px; /**右边距, left, right这两个属性不设置或其中一个不设置，线条不显示 */
+    bottom: 0;
+    height: 1px;
+    background-color: #DFDFDF;
+}

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/widgets/index",
+
+    "pages/widgets/widgets-pages/view/view",
+    "pages/widgets/widgets-pages/scroll-view/scroll-view",
+    "pages/widgets/widgets-pages/swiper/swiper",
+
+    "pages/widgets/widgets-pages/text/text",
+    "pages/widgets/widgets-pages/icon/icon",
+    "pages/widgets/widgets-pages/mask/mask",
+    "pages/widgets/widgets-pages/toast/toast",
+    "pages/widgets/widgets-pages/progress/progress",
+
+    "pages/api/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar": {
+   "color": "#dddddd",
+   "selectedColor": "#3cc51f",
+   "borderStyle": "black",
+   "backgroundColor": "#ffffff",
+   "list": [
+     {
+       "pagePath": "pages/widgets/index",
+       "iconPath": "image/wechat.png",
+       "selectedIconPath": "image/wechatHL.png",
+       "text": "组件"
+     },
+     {
+       "pagePath": "pages/api/index",
+       "iconPath": "image/wechat.png",
+       "selectedIconPath": "image/wechatHL.png",
+       "text": "接口"
+     }
+   ]
+ }
+}

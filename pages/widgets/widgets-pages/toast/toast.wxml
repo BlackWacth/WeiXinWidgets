@@ -1,0 +1,26 @@
+<view class="page">
+    <view class="page__hd">
+        <text class="page__title">toast</text>
+        <text class="page__desc">toast提示</text>
+    </view>
+
+    <view>
+        <view class="btn-area">
+            <view>
+                <toast hidden="{{toast_hidden1}}" bindchange="toast_change1">默认</toast>
+                <button type="default" bindtap="toast1">点击弹出默认toast</button>
+            </view>
+
+            <view>
+                <toast hidden="{{toast_hidden2}}" icon="warn" bindchange="toast_change2">设置icon</toast>
+                <button type="default" bindtap="toast2">点击弹出设置icon的toast</button>
+            </view>
+
+            <view>
+                <toast hidden="{{toast_hidden3}}" duration="3000" bindchange="toast_change3">设置duration</toast>
+                <button type="default" bindtap="toast3">点击弹出设置duration的toast</button>
+            </view>
+        </view>
+    </view>
+
+</view>
