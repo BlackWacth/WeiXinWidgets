@@ -12,6 +12,16 @@
     "pages/widgets/widgets-pages/toast/toast",
     "pages/widgets/widgets-pages/progress/progress",
 
+    "pages/widgets/widgets-pages/button/button",
+    "pages/widgets/widgets-pages/checkbox/checkbox",
+    "pages/widgets/widgets-pages/form/form",
+    "pages/widgets/widgets-pages/input/input",
+    "pages/widgets/widgets-pages/label/label",
+    "pages/widgets/widgets-pages/picker/picker",
+    "pages/widgets/widgets-pages/radio/radio",
+    "pages/widgets/widgets-pages/slider/slider",
+    "pages/widgets/widgets-pages/switch/switch",
+
     "pages/api/index"
   ],
   "window":{

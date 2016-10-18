@@ -25,7 +25,6 @@
                     <navigator url="widgets-pages/swiper/swiper" class="widget">
                         <text class="widget__name">swiper</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
-                        <view class="widget__line"></view>
                     </navigator>
                 </view>
             </view>
@@ -66,55 +65,50 @@
             <view class="widgets__item">
                 <view bindtap="widgetsToggle" id="form" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}">
                     <text class="widgets__info-name">表单组件</text>
-                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                    <image class="widgets__info-img" src="resources/kind/form.png" backgound-size="cover"/>
                 </view>
                 <view class="widgets__list {{formShow ? 'widgets__list_show' : ''}}">
-                    <navigator url="widgets-pages/view/view" class="widget">
+                    <navigator url="widgets-pages/button/button" class="widget">
                         <text class="widget__name">button</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/checkbox/checkbox" class="widget">
                         <text class="widget__name">checkbox</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                    <navigator url="widgets-pages/form/form" class="widget">
                         <text class="widget__name">form</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/input/input" class="widget">
                         <text class="widget__name">input</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                    <navigator url="widgets-pages/label/label" class="widget">
                         <text class="widget__name">label</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/view/view" class="widget">
-                        <text class="widget__name">label</text>
-                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
-                        <view class="widget__line"></view>
-                    </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/picker/picker" class="widget">
                         <text class="widget__name">picker</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                    <navigator url="widgets-pages/radio/radio" class="widget">
                         <text class="widget__name">radio</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/slider/slider" class="widget">
                         <text class="widget__name">slider</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/swiper/swiper" class="widget">
+                    <navigator url="widgets-pages/switch/switch" class="widget">
                         <text class="widget__name">switch</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                     </navigator>
