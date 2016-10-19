@@ -1,0 +1,36 @@
+<view class="page">
+    <view class="page__hd">
+        <text class="page__title">picker</text>
+        <text class="page__desc">选择器</text>
+    </view>
+
+    <view>
+        <view class="section">
+            <view class="section__title">地区选择器</view>
+            <picker bindchange="bindAddressChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                    当前选择： {{array[index]}}
+                </view>
+            </picker>
+        </view>
+
+        <view class="section">
+            <view class="section__title">时间选择器</view>
+            <picker bindchange="bindTimeChange" mode="time" value="{{time}}" start="09:01" end="21:01">
+                <view class="picker">
+                    当前选择： {{time}}
+                </view>
+            </picker>
+        </view>
+
+        <view class="section">
+            <view class="section__title">日期选择器</view>
+            <picker bindchange="bindDateChange" start="2015-09-01" end="2017-09-01" mode="date" value="{{date}}">
+                <view class="picker">
+                    当前选择： {{date}}
+                </view>
+            </picker>
+        </view>
+    </view>
+
+</view>

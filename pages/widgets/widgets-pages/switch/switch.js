@@ -1,3 +1,5 @@
-/**
- * Created by hzw on 2016/10/14.
- */
+Page({
+	switch1Change: function (event) {
+        console.log(event);
+	}
+});

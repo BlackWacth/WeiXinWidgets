@@ -118,15 +118,15 @@
             <view class="widgets__item">
                 <view bindtap="widgetsToggle" id="interact" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
                     <text class="widgets__info-name">交换组件</text>
-                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                    <image class="widgets__info-img" src="resources/kind/interact.png" backgound-size="cover"/>
                 </view>
                 <view class="widgets__list {{interactShow ? 'widgets__list_show' : ''}}">
-                    <navigator url="widgets-pages/view/view" class="widget">
+                    <navigator url="widgets-pages/action-sheet/action-sheet" class="widget">
                         <text class="widget__name">action-sheet</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/modal/modal" class="widget">
                         <text class="widget__name">modal</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                     </navigator>

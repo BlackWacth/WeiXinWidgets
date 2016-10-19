@@ -22,6 +22,9 @@
     "pages/widgets/widgets-pages/slider/slider",
     "pages/widgets/widgets-pages/switch/switch",
 
+    "pages/widgets/widgets-pages/action-sheet/action-sheet",
+    "pages/widgets/widgets-pages/modal/modal",
+
     "pages/api/index"
   ],
   "window":{
