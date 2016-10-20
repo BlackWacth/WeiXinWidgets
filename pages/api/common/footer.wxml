@@ -1,0 +1,3 @@
+<template name="footer">
+    <view class="page-footer">微信接口功能</view>
+</template>

@@ -25,12 +25,29 @@
     "pages/widgets/widgets-pages/action-sheet/action-sheet",
     "pages/widgets/widgets-pages/modal/modal",
 
-    "pages/api/index"
+    "pages/widgets/widgets-pages/navigator/navigator",
+    "pages/widgets/widgets-pages/navigator/second-page",
+    "pages/widgets/widgets-pages/navigator/third-page",
+
+    "pages/widgets/widgets-pages/image/image",
+    "pages/widgets/widgets-pages/audio/audio",
+    "pages/widgets/widgets-pages/video/video",
+
+    "pages/widgets/widgets-pages/map/map",
+
+    "pages/widgets/widgets-pages/canvas/canvas",
+
+    "pages/api/index",
+
+    "pages/api/basic/login/login",
+    "pages/api/basic/get-user-info/get-user-info",
+    "pages/api/basic/request-payment/request-payment"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "组件-接口",
     "navigationBarTextStyle":"black"
   },
  "tabBar": {

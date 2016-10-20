@@ -1,0 +1,11 @@
+<view class="container">
+
+    <view class="page-body">
+        <view class="page-body-wording">
+            <text class="page-body-text">
+                自主接入微信支付后，可以让用户在页面上快捷完成下单购买。
+            </text>
+        </view>
+    </view>
+
+</view>

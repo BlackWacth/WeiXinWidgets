@@ -136,10 +136,10 @@
             <view class="widgets__item">
                 <view bindtap="widgetsToggle" id="nav" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
                     <text class="widgets__info-name">导航</text>
-                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                    <image class="widgets__info-img" src="resources/kind/nav.png" backgound-size="cover"/>
                 </view>
                 <view class="widgets__list {{navShow ? 'widgets__list_show' : ''}}">
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/navigator/navigator" class="widget">
                         <text class="widget__name">navigator</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                     </navigator>
@@ -149,25 +149,52 @@
             <view class="widgets__item">
                 <view bindtap="widgetsToggle" id="media" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
                     <text class="widgets__info-name">媒体</text>
-                    <image class="widgets__info-img" src="resources/kind/view.png" backgound-size="cover"/>
+                    <image class="widgets__info-img" src="resources/kind/media.png" backgound-size="cover"/>
                 </view>
                 <view class="widgets__list {{mediaShow ? 'widgets__list_show' : ''}}">
-                    <navigator url="widgets-pages/view/view" class="widget">
+                    <navigator url="widgets-pages/image/image" class="widget">
                         <text class="widget__name">image</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/view/view" class="widget">
+                    <navigator url="widgets-pages/audio/audio" class="widget">
                         <text class="widget__name">audio</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="widgets-pages/scroll-view/scroll-view" class="widget">
+                    <navigator url="widgets-pages/video/video" class="widget">
                         <text class="widget__name">video</text>
                         <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
                     </navigator>
                 </view>
             </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="map" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
+                    <text class="widgets__info-name">地图</text>
+                    <image class="widgets__info-img" src="resources/kind/map.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{mapShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/map/map" class="widget">
+                        <text class="widget__name">map</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
+            <view class="widgets__item">
+                <view bindtap="widgetsToggle" id="canvas" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" >
+                    <text class="widgets__info-name">画布</text>
+                    <image class="widgets__info-img" src="resources/kind/canvas.png" backgound-size="cover"/>
+                </view>
+                <view class="widgets__list {{canvasShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="widgets-pages/canvas/canvas" class="widget">
+                        <text class="widget__name">canvas</text>
+                        <image class="widget__arrow" src="resources/arrow.png" backgound-size="cover"/>
+                    </navigator>
+                </view>
+            </view>
+
         </view>
     </view>
 </view>

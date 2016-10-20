@@ -1,0 +1,16 @@
+<view class="page">
+    <view class="page__hd">
+        <text class="page__title">navigator</text>
+        <text class="page__desc">导航栏</text>
+    </view>
+    <view>
+        <view class="btn-area">
+            <navigator url="second-page?title=new-page" hover-class="navigator-hover">
+                <button type="default">跳转到新页面</button>
+            </navigator>
+            <navigator url="third-page?title=current-page" redirect hover-class="none">
+                <button type="default">在当前页打开</button>
+            </navigator>
+        </view>
+    </view>
+</view>
