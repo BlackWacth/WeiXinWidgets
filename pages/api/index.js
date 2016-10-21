@@ -24,27 +24,27 @@ Page({
                 APIList: [{
                     zhName: '设置界面标题',
                     enName: 'setNavigationBarTitle',
-                    url: '../set-navigation-bar-title/set-navigation-bar-title'
+                    url: 'ui/navigation-bar-title/navigation-bar-title'
                 }, {
                     zhName: '标题栏加载动画',
                     enName: 'navigationBarLoading',
-                    url: '../navigation-bar-loading/navigation-bar-loading'
+                    url: 'ui/navigation-bar-loading/navigation-bar-loading'
                 }, {
                     zhName: '页面跳转',
                     enName: 'navigateTo, navigateBack, redirectTo',
-                    url: '../navigator/navigator'
+                    url: 'ui/navigator/navigator'
                 }, {
                     zhName: '下拉刷新',
                     enName: 'pullDownRefresh',
-                    url: '../pull-down-refresh/pull-down-refresh'
+                    url: 'ui/pull-down-refresh/pull-down-refresh'
                 }, {
                     zhName: '创建动画',
                     enName: 'createAnimation',
-                    url: '../animation/animation'
+                    url: 'ui/animation/animation'
                 }, {
                     zhName: '创建绘画',
                     enName: 'createContext',
-                    url: '../canvas/canvas'
+                    url: 'ui/canvas/canvas'
                 }]
             },
             {

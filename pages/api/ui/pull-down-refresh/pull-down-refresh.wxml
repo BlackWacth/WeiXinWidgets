@@ -1,0 +1,19 @@
+<view class="container">
+
+    <view class="page-body">
+
+        <view class="page-body-wrapper">
+
+            <view class="page-body-info">
+                <text class="page-body-text">下滑页面即可刷新</text>
+            </view>
+
+            <view class="page-body-buttons">
+                <button bindtap="stopPullDownRefresh">停止刷新</button>
+            </view>
+
+        </view>
+
+    </view>
+
+</view>

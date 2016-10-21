@@ -1,0 +1,17 @@
+<view class="container">
+
+    <view class="page-body">
+
+        <view class="page-body-wrapper">
+
+            <view class="page-body-buttons">
+                <button class="page-body-button" type="primary" bindtap="navigateTo">跳转新页面</button>
+                <button class="page-body-button" type='warn' bindtap="navigateBack">返回上一页</button>
+                <button class="page-body-button" bindtap="redirectTo">在当前页面打开</button>
+            </view>
+
+        </view>
+
+    </view>
+
+</view>

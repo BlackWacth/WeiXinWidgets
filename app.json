@@ -41,7 +41,14 @@
 
     "pages/api/basic/login/login",
     "pages/api/basic/get-user-info/get-user-info",
-    "pages/api/basic/request-payment/request-payment"
+    "pages/api/basic/request-payment/request-payment",
+
+    "pages/api/ui/animation/animation",
+    "pages/api/ui/canvas/canvas",
+    "pages/api/ui/navigation-bar-loading/navigation-bar-loading",
+    "pages/api/ui/navigation-bar-title/navigation-bar-title",
+    "pages/api/ui/navigator/navigator",
+    "pages/api/ui/pull-down-refresh/pull-down-refresh"
 
   ],
   "window":{
