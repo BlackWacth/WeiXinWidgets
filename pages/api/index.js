@@ -53,19 +53,19 @@ Page({
                 APIList: [{
                     zhName: '获取手机网络状态',
                     enName: 'getNetworkType',
-                    url: '../get-network-type/get-network-type'
+                    url: 'devices/network-type/network-type'
                 }, {
                     zhName: '获取手机系统信息',
                     enName: 'getSystemInfo',
-                    url: '../get-system-info/get-system-info'
+                    url: 'devices/system-info/system-info'
                 }, {
                     zhName: '监听重力感应数据',
                     enName: 'onAccelerometerChange',
-                    url: '../on-accelerometer-change/on-accelerometer-change'
+                    url: 'devices/accelerometer/accelerometer'
                 }, {
                     zhName: '监听罗盘数据',
                     enName: 'onCompassChange',
-                    url: '../on-compass-change/on-compass-change'
+                    url: 'devices/compass/compass'
                 }]
             },
             {
@@ -74,19 +74,19 @@ Page({
                 APIList: [{
                     zhName: '发起一个请求',
                     enName: 'request',
-                    url: '../request/request'
+                    url: 'network/request/request'
                 }, {
                     zhName: 'Web Socket',
                     enName: 'Web Socket',
-                    url: '../web-socket/web-socket'
+                    url: 'network/web-socket/web-socket'
                 }, {
                     zhName: '上传文件',
                     enName: 'Upload File',
-                    url: '../upload-file/upload-file'
+                    url: 'network/upload-file/upload-file'
                 }, {
                     zhName: '下载文件',
                     enName: 'Download File',
-                    url: '../download-file/download-file'
+                    url: 'network/download-file/download-file'
                 }]
             },
             {
@@ -95,25 +95,25 @@ Page({
                 APIList: [{
                     zhName: '图片',
                     enName: 'chooseImage/previewImage',
-                    url: '../image/image'
+                    url: 'media/image/image'
                 }, {
                     zhName: '录音',
                     enName: 'start/stopRecord, play/pause/stopVoice',
-                    url: '../voice/voice'
+                    url: 'media/voice/voice'
                 }, {
                     zhName: '背景音频',
                     enName: 'play/pause/stopAudio',
-                    url: '../background-audio/background-audio'
+                    url: 'media/audio/audio'
                 }, {
                     zhName: '文件',
                     enName: 'saveFile',
-                    url: '../file/file'
+                    url: 'media/file/file'
                 }]
             },
             {
                 name: '数据',
                 opened: false,
-                url: '../storage/storage'
+                url: 'storage/storage'
             },
             {
                 name: '地理位置',
@@ -121,11 +121,11 @@ Page({
                 APIList: [{
                     zhName: '获取当前位置',
                     enName: 'getLocation',
-                    url: '../get-location/get-location'
+                    url: 'location/get-location/get-location'
                 }, {
                     zhName: '使用原生地图查看位置',
                     enName: 'openLocation',
-                    url: '../open-location/open-location'
+                    url: 'location/open-location/open-location'
                 }]
             }
         ]

@@ -48,7 +48,27 @@
     "pages/api/ui/navigation-bar-loading/navigation-bar-loading",
     "pages/api/ui/navigation-bar-title/navigation-bar-title",
     "pages/api/ui/navigator/navigator",
-    "pages/api/ui/pull-down-refresh/pull-down-refresh"
+    "pages/api/ui/pull-down-refresh/pull-down-refresh",
+
+    "pages/api/devices/accelerometer/accelerometer",
+    "pages/api/devices/compass/compass",
+    "pages/api/devices/network-type/network-type",
+    "pages/api/devices/system-info/system-info",
+
+    "pages/api/network/download-file/download-file",
+    "pages/api/network/request/request",
+    "pages/api/network/upload-file/upload-file",
+    "pages/api/network/web-socket/web-socket",
+
+    "pages/api/media/audio/audio",
+    "pages/api/media/file/file",
+    "pages/api/media/image/image",
+    "pages/api/media/voice/voice",
+
+    "pages/api/storage/storage",
+
+    "pages/api/location/get-location/get-location",
+    "pages/api/location/open-location/open-location"
 
   ],
   "window":{

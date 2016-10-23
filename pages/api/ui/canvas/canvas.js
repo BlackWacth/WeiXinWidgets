@@ -1,4 +1,15 @@
 Page({
+    onReady: function () {
+        this.position = {
+            x: 150,
+            y: 150,
+            vx: 2,
+            vy: 2
+        };
+        this.drawBall();
+        this.interval = setInterval(this.drawBall, 17);
+    },
+
     drawBall: function () {
         var p = this.position;
         p.x += p.vx;
@@ -18,11 +29,6 @@ Page({
 
         var context = wx.createContext();
 
-        wx.drawCanvas({
-            canvasId: 'canvas',
-            actions: context.getActions()
-        });
-
         function ball(x, y) {
             context.beginPath(0);
             context.arc(x, y, 5, 0, Math.PI * 2);
@@ -40,17 +46,11 @@ Page({
         ball(300 - p.x, 300 - p.y);
         ball(p.x, 300 - p.y);
         ball(300 - p.x, p.y);
-    },
 
-    onReady: function () {
-        this.position = {
-            x: 150,
-            y: 150,
-            vx: 2,
-            vy: 2
-        };
-        this.drawBall();
-        this.interval = setInterval(this.drawBall, 17);
+        wx.drawCanvas({
+            canvasId: 'canvas',
+            actions: context.getActions()
+        });
     },
 
     onUnload: function () {
