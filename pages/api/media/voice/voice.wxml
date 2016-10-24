@@ -1,6 +1,7 @@
 <view class="container">
     <view class="page-body">
         <view class="page-body-wrapper">
+
             <block wx:if="{{recording === false && playing === false && hasRecord === false}}">
                 <view class="page-body-time">
                     <text class="time-big">{{formatedRecordTime}}</text>
